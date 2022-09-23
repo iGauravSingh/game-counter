@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="home">
+            <div class="heading">
+                <h1>HOME</h1>
+            </div>
+            <div class="display">
+                <h1 id="dispHome">0</h1>
+            </div>
+            <div>
+                <button onclick="addOneH()" class="btn">+1</button>
+                <button onclick="addTwoH()" class="btn">+2</button>
+                <button onclick="addThreeH()" class="btn">+3</button>
+            </div>
+        </div>
+
+        <div class="home">
+            <div class="heading">
+                <h1>GUEST</h1>
+            </div>
+            <div class="display">
+                <h1 id="dispGuest">0</h1>
+            </div>
+            <div>
+                <button onclick="addOneG()" class="btn">+1</button>
+                <button onclick="addTwoG()" class="btn">+2</button>
+                <button onclick="addThreeG()" class="btn">+3</button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="new-game">
+        <button onclick="newGame()" class="btn-newgame">New Game</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

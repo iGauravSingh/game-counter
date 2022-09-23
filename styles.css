@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Timer;
+    src: url('Timer.ttf');
+}
+
+body {
+    background-image: linear-gradient(#f1faee,#a8dadc);
+    height: 100vh;
+}
+
+.card{
+    background-color: #19244d;
+    width: 600px;
+    height: 450px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.display{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color:antiquewhite;
+    font-family: Timer;
+    font-size: 60px;
+    color: #be243c;
+    margin-bottom: 20px;
+}
+#dispHome{
+    padding-top: 40px;
+}
+#dispGuest{
+    padding-top: 40px;
+}
+.btn{
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #19244d;
+    color: antiquewhite;
+    margin: 20px 5px;
+    font-family: Timer;
+}
+
+.heading h1{
+    color:antiquewhite;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+.home{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.new-game{
+    text-align: center;
+}
+.btn-newgame{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #be243c;
+    color: antiquewhite;
+    width: 140px;
+    height: 60px;
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 20px;
+}
